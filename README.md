@@ -1,9 +1,8 @@
-'''shell
+
 alias edit=nano
 cd WhiteSunOfSpace/workspace
 git config —global hub.protocol https
 cd projects/lab02homework
-'''
 
 git branch patch1
 git switch patch1
