@@ -1,21 +1,28 @@
-
+```shell
 alias edit=nano
 cd WhiteSunOfSpace/workspace
 git config —global hub.protocol https
 cd projects/lab02homework
+```
 
+```shell
 git branch patch1
 git switch patch1
+```
 
+```shell
 edit ./proga/hello_world.cpp
 git add .
 git commit -m "change hello_world"
 git push origin patch1
+```
 
+```shell
 edit ./proga/hello_world.cpp
 git add .
 git commit -m "modified hello_world"
 git push origin patch1
+```
 
 git status
 ```shell
@@ -28,15 +35,21 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 git rebase master
+```shell
 Current branch patch1 is up to date.
+```
 
 git switch master
+```shell
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
+```
 
 git checkout master
+```shell
 Already on 'master'
 Your branch is up to date with 'origin/master'.
+```
 
 git merge patch1
 ```shell
